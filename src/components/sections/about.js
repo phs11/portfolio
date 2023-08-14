@@ -135,22 +135,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Omar. I am a highly motivated and detail-oriented cybersecurity analyst. I actively work to identify and analyze potential risks, threats, and vulnerabilities to security and ensure the confidentiality, integrity, and availability of assets, to help safeguard organizations and people alike. I place a high value on maintaining a strong security posture to help protect sensitive information and mitigate risk.
             </p>
 
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+            <p><b>Internal Security Auditing and Compliance:</b></p>
+            <p>I have actively participated in comprehensive internal security audits, playing an integral role in ensuring compliance with SOC1 and SOC2 requirements. My adeptness in assessing security controls and identifying vulnerabilities allows me to effectively evaluate and enhance the security posture of the organization. This expertise has been pivotal in aligning operations with industry best practices and regulatory mandates.
             </p>
+
+            <p><b>Proactive Monitoring and Threat Detection:</b></p>
+            <p>Within the SOC, I have diligently overseen the operation of critical systems, including Security Information and Event Management (SIEM) and Identity and Access Management (IAM) solutions. My proactive approach to real-time monitoring has enabled me to swiftly identify and neutralize potential threats, minimizing risks and preventing potential breaches. By staying vigilant and responsive, I have consistently upheld the integrity and confidentiality of sensitive data.</p>
+            
+            <p><b>Vulnerability Management and Remediation:</b></p>
+            <p>Adept in leveraging cutting-edge vulnerability scanners, I have spearheaded the creation of comprehensive weekly reports that outline system vulnerabilities and recommendations for remediation. My data-driven insights have facilitated informed decision-making and facilitated the timely implementation of security controls, significantly enhancing the organization's resilience against evolving cyber threats.</p>
+
+            <p><b>Incident Response and Root Cause Analysis:</b></p>
+            <p>In response to potential threats, I have demonstrated a methodical approach to analyzing logs and identifying the root cause of incidents. My adherence to the organizational playbook, coupled with my ability to dissect complex scenarios, has enabled me to swiftly contain and mitigate risks, minimizing potential impact and ensuring operational continuity.</p>
+
+
 
             <p>
               I also recently{' '}
