@@ -60,12 +60,12 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Omar Ahmadi.</h2>;
-  const three = <h3 className="big-heading">Security Analyst with Expertise in Internal Auditing and Threat Mitigation</h3>;
+  const two = <h2 className="big-heading">Omar Ahmadi</h2>;
+  const three = <h3 className="big-heading">I'm a Security Analyst with Expertise in Risk Management and Threat Mitigation</h3>;
   const four = (
     <>
       <p>
-      As a seasoned Security Analyst with a distinguished track record in the pharmaceutical industry, I bring a wealth of experience in fortifying digital landscapes and safeguarding critical assets. My proficiency spans internal auditing encompassing internationally recognized security frameworks, meticulous monitoring of system operations within the Security Operations Center (SOC), and the implementation of robust threat detection and response strategies. My commitment to excellence and an unwavering dedication to upholding security standards make me a valuable asset to any forward-thinking organization.
+      As a seasoned Security Analyst with a distinguished track record in the pharmaceutical industry, I bring a wealth of experience in fortifying digital landscapes and safeguarding critical assets. My proficiency spans internal auditing, meticulous monitoring of system operations within the Security Operations Center (SOC), and the implementation of robust threat detection and response strategies.
       </p>
     </>
   );
