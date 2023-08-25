@@ -1,5 +1,5 @@
 ---
-date: '2022-07-25'
+date: '2022-02-25'
 title: 'Product Manager'
 company: 'John Wiley & Sons'
 location: 'Hoboken, NJ'
