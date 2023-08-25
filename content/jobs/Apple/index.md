@@ -1,13 +1,18 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2022-07-25'
+title: 'Product Manager'
+company: 'John Wiley & Sons'
+location: 'Hoboken, NJ'
+range: 'July 2016 - February 2022'
+url: 'https://www.wiley.com'
 ---
 
-- Developed and styled interactive web applications for Apple Music using Ember and SCSS
-- Built and shipped the Apple Music Extension for Facebook Messenger leveraging third-party and internal API integrations
-- Architected and implemented the user interface of Apple Music's embeddable web player widget for in-browser user authorization and full song playback
-- Contributed extensively to the creation of MusicKit JS, a public-facing JavaScript SDK for embedding Apple Music players into web applications
+- Primary contact for Application Security Compliance regarding LMS integrations with Wiley 
+products, coordinating with several departments within the company to meet customer 
+needs. Familiar with FERPA, GDPR, Sarbanes-Oxley Act, PCI DSS, SOC, ISO 27001
+- Wiley.com discipline sites and wileyplus.com product owner responsible for managing content
+for flagship products. Key player in construction of next-gen WileyPLUS and WEL web apps
+- Coordinated with business & delivery heads to execute product strategy and roadmap for 
+politybooks.com $6M contract. Participated in negotiating contracts and developer budgets
+- Conducted data Analysis on reports pulled using MySQL from WileyPLUS LMS and Polity 
+relational databases

@@ -1,11 +1,11 @@
 ---
-date: '2017-04-01'
+date: '2018-10-01'
 title: 'Developer'
-company: 'Scout Studio'
-location: 'Northeastern University'
-range: 'Spring 2016 & 2017'
-url: 'https://web.northeastern.edu/scout/'
+company: 'Bitbull Capital'
+location: 'San Francisco, CA'
+range: 'February - October 2018 '
+url: 'https://bitbullcapital.com/'
 ---
 
-- Collaborated with other student designers and engineers on pro-bono projects to create new brands, design systems, and websites for organizations in the community
-- Built and delivered technical solutions according to stakeholder business requirements
+- Assessed the impact of cost pressure, regulatory/capital requirements, and the rise of new income classes due to globalization of the new information society focused on social media
+- Created cost benefit analysis (CBA) by performing statistical research and isolated key performance indicators through observation, research, and job shadowing.

@@ -1,12 +1,11 @@
 ---
 date: '2016-12-21'
-title: 'Software Engineer Co-op'
-company: 'Starry'
+title: 'Web Developer'
+company: 'East Coast Kids'
 location: 'Boston, MA'
-range: 'July - December 2016'
-url: 'https://starry.com/'
+range: 'July 2015 - January 2016'
+url: 'https://eastcoastkids.com/'
 ---
 
-- Engineered and improved major features of Starry's customer-facing Android web app using ES6, Handlebars, Backbone, Marionette, and CSS
-- Proposed and implemented scalable solutions to issues identified with cloud services and applications responsible for communicating with the Starry Station internet router
-- Collaborated with designers and other developers to ensure thoughtful and consistent user experiences across Starry’s iOS and Android mobile apps
+- Gained hands on development experience building Web Applications from the ground up. Connected with colleagues to meet weekly project deadlines.
+- Learned UI, Cross-browser compatibility, and web standards.
