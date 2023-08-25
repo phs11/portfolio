@@ -1,12 +1,14 @@
 ---
-date: '2015-12-21'
-title: 'Creative Technologist Co-op'
-company: 'MullenLowe'
-location: 'Boston, MA'
-range: 'July - December 2015'
-url: 'https://us.mullenlowe.com/'
+date: '2016-01-21'
+title: 'Leadership'
+company: 'Rutgers University'
+location: 'New Brunswick, NJ'
+range: 'September 2011 - January 2016'
+url: 'https://newbrunswick.rutgers.edu/'
 ---
 
-- Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Performed quality assurance tests on various sites to ensure cross-browser compatibility and mobile responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Creation of Games Society – Acquired game dev skills and taught others to build in Unity
+- Undergraduate Student Alliance of Computer Scientists – Competed in hackathons and 
+improved productivity by gaining programming skills outside of the CS curriculum
+- Scholars for Charity Web Design – Develop business websites in exchange for donations
+- Media Chair at the Kappa Sigma Fraternity (Gamma Upsilon Chapter of New Brunswick)
