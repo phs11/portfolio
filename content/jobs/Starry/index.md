@@ -1,8 +1,8 @@
 ---
 date: '2016-12-21'
 title: 'Web Developer'
-company: 'East Coast Kids'
-location: 'Boston, MA'
+company: 'ECK'
+location: 'Remote'
 range: 'July 2015 - January 2016'
 url: 'https://eastcoastkids.com/'
 ---

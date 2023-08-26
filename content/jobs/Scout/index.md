@@ -1,6 +1,6 @@
 ---
 date: '2018-10-01'
-title: 'Developer'
+title: 'Hedge Fund Trader'
 company: 'Bitbull Capital'
 location: 'San Francisco, CA'
 range: 'February - October 2018 '

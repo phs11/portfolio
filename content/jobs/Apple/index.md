@@ -1,7 +1,7 @@
 ---
 date: '2022-02-25'
 title: 'Product Manager'
-company: 'John Wiley & Sons'
+company: 'Wiley'
 location: 'Hoboken, NJ'
 range: 'July 2016 - February 2022'
 url: 'https://www.wiley.com'

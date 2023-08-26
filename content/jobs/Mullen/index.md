@@ -1,7 +1,7 @@
 ---
 date: '2016-01-21'
 title: 'Leadership'
-company: 'Rutgers University'
+company: 'Rutgers NB'
 location: 'New Brunswick, NJ'
 range: 'September 2011 - January 2016'
 url: 'https://newbrunswick.rutgers.edu/'
