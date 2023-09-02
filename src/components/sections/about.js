@@ -135,7 +135,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Omar. I am a highly motivated and detail-oriented cybersecurity analyst. I actively work to identify and analyze potential risks, threats, and vulnerabilities to security and ensure the confidentiality, integrity, and availability of assets, to help safeguard organizations and people alike. I place a high value on maintaining a strong security posture to help protect sensitive information and mitigate risk.
+              Hello! My name is Omar. I am a highly motivated and detail-oriented security analyst. I actively work to identify and analyze potential risks, threats, and vulnerabilities to security and ensure the confidentiality, integrity, and availability of assets, to help safeguard organizations and people alike. I place a high value on maintaining a strong security posture to help protect sensitive information and mitigate risk.
             </p>
 
             <p><b>Internal Security Auditing and Compliance:</b></p>
