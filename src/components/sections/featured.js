@@ -308,7 +308,7 @@ const Featured = () => {
     {
       featured: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/content/featured/" } }
-        sort: { fields: [frontmatter___date], order: ASC }
+        sort: { frontmatter: { date: ASC } }
       ) {
         edges {
           node {
@@ -360,7 +360,7 @@ const Featured = () => {
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
-                <div className="project-content">
+                <div className="project-content" style={!image ? { gridColumn: '1 / -1' } : {}}>
                   <div>
                     <p className="project-overline">Featured Project</p>
 
@@ -401,9 +401,9 @@ const Featured = () => {
                   </div>
                 </div>
 
-                <div className="project-image">
+                <div className="project-image" style={!image ? { display: 'none' } : {}}>
                   <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                    {image && <GatsbyImage image={image} alt={title} className="img" />}
                   </a>
                 </div>
               </StyledProject>

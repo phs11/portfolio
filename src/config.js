@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'oahmadi.tag537@passfwd.com',
+  email: 'odahmadi15@gmail.com',
 
   socialMedia: [
     {
@@ -9,10 +9,6 @@ module.exports = {
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/oahmadi/',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/daizg',
     },
   ],
 

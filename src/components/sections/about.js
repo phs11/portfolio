@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'CyberArk PAM/ISPSS',
+    'Wiz Cloud Security',
+    'Okta SSO/MFA',
+    'Microsoft Defender/Intune',
+    'LogRhythm SIEM',
+    'AWS',
+    'Python',
+    'PowerShell',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,21 +144,31 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Omar. I am a highly motivated and detail-oriented security analyst. I actively work to identify and analyze potential risks, threats, and vulnerabilities to security and ensure the confidentiality, integrity, and availability of assets, to help safeguard organizations and people alike. I place a high value on maintaining a strong security posture to help protect sensitive information and mitigate risk.
+              I'm a Security Engineer at a healthcare PBM where I own privileged access management,
+              cloud security posture, and threat intelligence. I work at the intersection of
+              identity, infrastructure, and compliance, translating frameworks like HIPAA, HITRUST,
+              and SOC 2 into controls that hold up under audits and real attacks.
             </p>
 
-            <p><b>Internal Security Auditing and Compliance:</b></p>
-            <p>I have actively participated in comprehensive internal security audits, playing an integral role in ensuring compliance with SOC1 and SOC2 requirements. My adeptness in assessing security controls and identifying vulnerabilities allows me to effectively evaluate and enhance the security posture of the organization. This expertise has been pivotal in aligning operations with industry best practices and regulatory mandates.
+            <p>
+              Day to day, I manage our CyberArk PAM/ISPSS environment (CPM, PSM, Identity, Connector
+              Management), run Wiz across AWS and Azure, handle Okta SSO/MFA integrations, and tune
+              SIEM detections in LogRhythm. I also built an application security program integrating
+              Wiz CSPM with our CI/CD pipeline for SCA, SAST, and DAST scanning.
             </p>
 
-            <p><b>Proactive Monitoring and Threat Detection:</b></p>
-            <p>Within the SOC, I have diligently overseen the operation of critical systems, including Security Information and Event Management (SIEM) and Identity and Access Management (IAM) solutions. My proactive approach to real-time monitoring has enabled me to swiftly identify and neutralize potential threats, minimizing risks and preventing potential breaches. By staying vigilant and responsive, I have consistently upheld the integrity and confidentiality of sensitive data.</p>
-            
-            <p><b>Vulnerability Management and Remediation:</b></p>
-            <p>Adept in leveraging cutting-edge vulnerability scanners, I have spearheaded the creation of comprehensive weekly reports that outline system vulnerabilities and recommendations for remediation. My data-driven insights have facilitated informed decision-making and facilitated the timely implementation of security controls, significantly enhancing the organization's resilience against evolving cyber threats.</p>
+            <p>
+              Before moving into security, I spent six years at Wiley as a Product Manager and Web
+              Developer, where I owned compliance across FERPA, GDPR, and PCI DSS on AWS-hosted
+              platforms serving millions of users. That product and engineering background shapes
+              how I approach security: as a system built on people, processes, and code.
+            </p>
 
-            <p><b>Incident Response and Root Cause Analysis:</b></p>
-            <p>In response to potential threats, I have demonstrated a methodical approach to analyzing logs and identifying the root cause of incidents. My adherence to the organizational playbook, coupled with my ability to dissect complex scenarios, has enabled me to swiftly contain and mitigate risks, minimizing potential impact and ensuring operational continuity.</p>
+            <p>Here are some technologies I work with regularly:</p>
+
+            <ul className="skills-list">
+              {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            </ul>
           </div>
         </StyledText>
 

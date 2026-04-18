@@ -4,13 +4,12 @@ module.exports = {
   siteMetadata: {
     title: 'Omar Ahmadi',
     description:
-      'Omar Ahmadi is a security analyst who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://oa-portfolio.netlify.app', // No trailing slash allowed!
+      'Omar Ahmadi is a Security Engineer specializing in privileged access management, cloud security, and threat intelligence in healthcare.',
+    siteUrl: 'https://oahmadi.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@x',
+    twitterUsername: '',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
@@ -42,13 +41,6 @@ module.exports = {
       options: {
         name: 'content',
         path: `${__dirname}/content/`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `posts`,
-        path: `${__dirname}/content/posts`,
       },
     },
     {
@@ -150,9 +142,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-45666519-2',
+        trackingIds: ['G-XC0X7LRTM7'],
       },
     },
   ],

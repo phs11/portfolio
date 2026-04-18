@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
@@ -54,18 +54,25 @@ const Hero = () => {
     if (prefersReducedMotion) {
       return;
     }
-
     const timeout = setTimeout(() => setIsMounted(true), navDelay);
     return () => clearTimeout(timeout);
   }, []);
 
+  const ref0 = useRef(null);
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+  const ref4 = useRef(null);
+
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Omar Ahmadi</h2>;
-  const three = <h3 className="big-heading">I secure digital assets.</h3>;
+  const three = <h3 className="big-heading">Security Engineer in Healthcare.</h3>;
   const four = (
     <>
       <p>
-      I'm a Security Analyst that brings a wealth of experience in fortifying digital landscapes and safeguarding critical assets. My proficiency spans internal auditing, monitoring of operations within the SOC, and implementation of threat detection and response strategies.
+        I'm a Security Engineer at a healthcare PBM, focused on privileged access management, cloud
+        security, and threat intelligence. I work with CyberArk PAM, Wiz, Okta, and Microsoft
+        Defender to protect sensitive data and keep critical systems running.
       </p>
     </>
   );
@@ -75,26 +82,34 @@ const Hero = () => {
       href="https://www.linkedin.com/in/oahmadi/"
       target="_blank"
       rel="noreferrer">
-      Find me on LinkedIn!
+      Find me on LinkedIn
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [
+    { el: one, ref: ref0 },
+    { el: two, ref: ref1 },
+    { el: three, ref: ref2 },
+    { el: four, ref: ref3 },
+    { el: five, ref: ref4 },
+  ];
 
   return (
     <StyledHeroSection>
       {prefersReducedMotion ? (
         <>
-          {items.map((item, i) => (
-            <div key={i}>{item}</div>
+          {items.map(({ el }, i) => (
+            <div key={i}>{el}</div>
           ))}
         </>
       ) : (
         <TransitionGroup component={null}>
           {isMounted &&
-            items.map((item, i) => (
-              <CSSTransition key={i} classNames="fadeup" timeout={loaderDelay}>
-                <div style={{ transitionDelay: `${i + 1}00ms` }}>{item}</div>
+            items.map(({ el, ref }, i) => (
+              <CSSTransition key={i} nodeRef={ref} classNames="fadeup" timeout={loaderDelay}>
+                <div ref={ref} style={{ transitionDelay: `${i + 1}00ms` }}>
+                  {el}
+                </div>
               </CSSTransition>
             ))}
         </TransitionGroup>
